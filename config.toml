@@ -44,8 +44,3 @@ googleAnalytics = ""
     url = "https://www.linkedin.com/in/james-smith/"
     name = "linkedin"
     weight = 4
-
-[[menu.icon]]
-    url = "https://about.me/james-r-smith"
-    name = "user-circle"
-    weight = 5

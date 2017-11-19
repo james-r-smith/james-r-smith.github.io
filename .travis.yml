@@ -1,0 +1,15 @@
+language: go
+
+install:
+  - go get github.com/spf13/hugo
+
+script:
+  - HUGO_ENV=production hugo -v;
+  - cd public/ &&                                                                        \
+    git add . &&                                                                         \
+    git commit -m "Automated commit in submodule" &&                                     \
+    git push https://${GH_TOKEN}@github.com/james-r-smith/james-r-smith.github.io.git && \
+    cd .. &&                                                                             \
+    git add public &&                                                                    \
+    git commit -m "Automated commit to update submodule" &&                              \
+    git push https://${GH_TOKEN}@github.com/${TRAVIS_REPO_SLUG};
