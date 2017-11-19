@@ -1,4 +1,4 @@
-baseURL = "http://james-r-smith.github.io/"
+baseURL = "https://james-r-smith.github.io/"
 languageCode = "en-us"
 title = "James Smith"
 theme = "minimal"
