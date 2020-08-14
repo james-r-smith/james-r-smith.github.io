@@ -1,13 +1,13 @@
-baseURL = "https://james-r-smith.github.io/"
+baseURL = "https://jameschensmith.github.io/"
 languageCode = "en-us"
-title = "James Smith"
+title = "James Chen-Smith"
 theme = "minimal"
 googleAnalytics = ""
 
 [params]
-    author = "James Smith"
+    author = "James Chen-Smith"
     description = ""
-    githubUsername = "james-r-smith"
+    githubUsername = "jameschensmith"
     accent = "purple"
     showBorder = true
     backgroundColor = "white"
@@ -26,21 +26,21 @@ googleAnalytics = ""
 # The list of available icons can be found at http://fontawesome.io/icons/
 
 [[menu.icon]]
-    url = "mailto:jamessmithsmusic@gmail.com"
+    url = "mailto:jameschensmith@gmail.com"
     name = "envelope-o"
     weight = 1
 
 [[menu.icon]]
-    url = "https://github.com/james-r-smith/"
+    url = "https://github.com/jameschensmith/"
     name = "github"
     weight = 2
 
 [[menu.icon]]
-    url = "https://twitter.com/jamesr_smith/"
+    url = "https://twitter.com/jameschensmith/"
     name = "twitter"
     weight = 3
 
 [[menu.icon]]
-    url = "https://www.linkedin.com/in/james-smith/"
+    url = "https://www.linkedin.com/in/jameschensmith/"
     name = "linkedin"
     weight = 4
